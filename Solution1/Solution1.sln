@@ -5,8 +5,23 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MS_SQL", "MS_SQL", "{D7A51E98-E386-468E-AF39-9CCE22C87E2F}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Get_Unique_Id", "Get_Unique_Id\Get_Unique_Id.vbproj", "{E7ACE82B-6927-4328-89FC-8089B548607D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7ACE82B-6927-4328-89FC-8089B548607D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7ACE82B-6927-4328-89FC-8089B548607D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7ACE82B-6927-4328-89FC-8089B548607D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7ACE82B-6927-4328-89FC-8089B548607D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7ACE82B-6927-4328-89FC-8089B548607D} = {D7A51E98-E386-468E-AF39-9CCE22C87E2F}
 	EndGlobalSection
 EndGlobal
